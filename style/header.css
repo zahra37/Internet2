@@ -1,0 +1,59 @@
+.my-header {
+    margin-right: 120px;
+    margin-left: 120px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.title {
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(112, 112, 112);
+}
+.sign-up-button {
+    font-size: 15px;
+    color: rgb(112, 112, 112);
+    width: 90px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border: 1px solid rgb(102, 102, 102);
+    border-color: rgb(102, 102, 102);
+    background-color: rgb(255, 255, 255);
+}
+.log-in-button {
+    font-size: 15px;
+    width: 90px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border: 1px solid rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
+.textfield-search {
+    float: left;
+    border-radius: 15px;
+    width: 200px;
+    border: 1px solid rgb(102, 102, 102);
+    background: url(../pics/search.png) no-repeat scroll 5px 5px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    background-size: 20px;
+    padding-left:30px;
+    padding-right: 10px;
+}
+.textfield-search:focus {
+    outline-width: 0px;
+}
+.menu-list {
+    list-style-type: none;
+    display: block;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 0;
+}
+.list-item {
+    font-size: 15px;
+    color: rgb(112, 112, 112);
+    display: inline-block;
+    text-align: center;
+    width: 16%;
+    text-decoration: none;
+}
