@@ -1,7 +1,6 @@
 .my-header {
     margin-right: 120px;
     margin-left: 120px;
-    border-bottom: 1px solid rgb(235, 235, 235);
 }
 .title {
     text-align: center;
@@ -69,4 +68,34 @@
     display: inline-block;
     text-align: center;
     text-decoration: none;
+}
+.header-up {
+    border-bottom: 1px solid rgb(235, 235, 235);
+    margin-bottom: 10px; 
+}
+.header-navbar {
+    display: flex;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.header-item-pic {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
+.header-item {
+    display: inline-block;
+    border: 1px solid rgb(102, 102, 102);
+    flex: 1;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.header-item-text {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(112, 112, 112);
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
