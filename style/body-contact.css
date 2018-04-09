@@ -80,17 +80,18 @@
 }
 .body-3-right {
     flex: 2;
+    padding-left: 5px;
 }
 .body-3-left {
     flex: 3;
 }
 .body-3-header {
     font-weight: lighter;
-    font-size: 17px;
+    font-size: 15px;
     color: rgb(112, 112, 112);
 }
 .body-3-text {
-    font-size: 15px;
+    font-size: 13px;
     color: rgb(100, 100, 100);
 }
 .body-3-right-down {
