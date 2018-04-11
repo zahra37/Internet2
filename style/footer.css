@@ -42,6 +42,10 @@ footer{
     font-weight: lighter;
     padding-top: 2px;
 }
+.subitem:hover {
+    color: rgb(33, 89, 209);
+    font-weight: normal;
+}
 .footer-img-item {
     width: 35px;
     height: 35px;

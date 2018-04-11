@@ -26,6 +26,10 @@
     background-color: rgb(255, 255, 255);
     margin-top: 10px;
 }
+.sign-up-button:hover {
+    border: 1px solid rgb(33, 89, 209);
+    color: rgb(33, 89, 209);
+}
 .log-in-button {
     font-size: 15px;
     width: 90px;
@@ -35,6 +39,14 @@
     color: rgb(255, 255, 255);
     background-color: rgb(102, 102, 102);
     margin-top: 10px;
+}
+.log-in-button:hover {
+    background-color: rgb(33, 89, 209);
+    border: 1px solid rgb(33, 89, 209);
+}
+.log-in-button:active {
+    background-color: rgb(33, 89, 209);
+    border: 1px solid rgb(33, 89, 209);
 }
 .textfield-search {
     float: left;
@@ -48,6 +60,12 @@
     padding-left:30px;
     padding-right: 10px;
     margin-top: 10px;
+}
+.textfield-search:hover {
+    border: 1px solid rgb(33, 89, 209);
+}
+.textfield-search:focus {
+    border: 1px solid rgb(33, 89, 209);
 }
 .textfield-search:focus {
     outline-width: 0px;
@@ -68,6 +86,11 @@
     display: inline-block;
     text-align: center;
     text-decoration: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.list-item:hover {
+    color: rgb(33, 89, 209);
+    border-bottom: 2px solid rgb(33, 89, 209);
 }
 .header-up {
     border-bottom: 1px solid rgb(235, 235, 235);
@@ -84,6 +107,11 @@
     display: block;
     margin: auto;
     padding-top: 10px;
+}
+.header-item-about-us:hover img {
+    width: 45px;
+    height: 45px;
+    background-image: url("../pics/about-us-hover.png") no-repeat;
 }
 .header-item {
     display: inline-block;
