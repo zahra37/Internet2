@@ -104,14 +104,10 @@
 .header-item-pic {
     width: 45px;
     height: 45px;
-    display: block;
+    /* display: block; */
     margin: auto;
+    background-size: 45px;
     padding-top: 10px;
-}
-.header-item-about-us:hover img {
-    width: 45px;
-    height: 45px;
-    background-image: url("../pics/about-us-hover.png") no-repeat;
 }
 .header-item {
     display: inline-block;
@@ -120,14 +116,94 @@
     text-decoration: none;
     border-radius: 3px;
     margin-left: 10px;
-}
-/* .lastchild {
-    margin-left: 0px;
-} */
-.header-item-text {
     text-align: center;
     font-size: 15px;
     color: rgb(112, 112, 112);
     padding-bottom: 10px;
     padding-top: 10px;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+}
+.header-navbar .active {
+    border: 1px solid rgb(33, 89, 209);
+    color: rgb(33, 89, 209);
+}
+.header-navbar .active .header-item-about-us{
+    background: url("../pics/about-us-active.png") no-repeat;
+    background-size: 45px;
+}
+.header-navbar .active .header-item-cantact-us{
+    background: url("../pics/contact-us-active.png") no-repeat;
+    background-size: 45px;
+}
+.header-navbar .active .header-item-faq{
+    background: url("../pics/faq-active.png") no-repeat;
+    background-size: 45px;
+}
+.header-navbar .active .header-item-return{
+    background: url("../pics/return-active.png") no-repeat;
+    background-size: 45px;
+}
+.header-navbar .active .header-item-user{
+    background: url("../pics/user-active.png") no-repeat;
+    background-size: 45px;
+}
+.header-navbar .active .header-item-privacy{
+    background: url("../pics/privacy-active.png") no-repeat;
+    background-size: 45px;
+}
+.header-item:hover{
+    border: 1px solid rgb(33, 89, 209);
+    background: rgb(33, 89, 209);
+    color:  rgb(255, 255, 255);
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+}
+.header-item .header-item-about-us{
+    background: url("../pics/about-us.png") no-repeat;
+    background-size: 45px;
+}
+.header-item:hover .header-item-about-us{
+    background: url("../pics/about-us-hover.png") no-repeat;
+    background-size: 45px;
+}
+.header-item .header-item-cantact-us{
+    background: url("../pics/contact-us.png") no-repeat;
+    background-size: 45px;
+}
+.header-item:hover .header-item-cantact-us{
+    background: url("../pics/contact-us-hover.png") no-repeat;
+    background-size: 45px;
+}
+.header-item .header-item-faq{
+    background: url("../pics/faq.png") no-repeat;
+    background-size: 45px;
+}
+.header-item:hover .header-item-faq{
+    background: url("../pics/faq-hover.png") no-repeat;
+    background-size: 45px;
+}
+.header-item .header-item-return{
+    background: url("../pics/return.png") no-repeat;
+    background-size: 45px;
+}
+.header-item:hover .header-item-return{
+    background: url("../pics/return-hover.png") no-repeat;
+    background-size: 45px;
+}
+.header-item .header-item-user{
+    background: url("../pics/user.png") no-repeat;
+    background-size: 45px;
+}
+.header-item:hover .header-item-user{
+    background: url("../pics/user-hover.png") no-repeat;
+    background-size: 45px;
+}
+.header-item .header-item-privacy{
+    background: url("../pics/privacy.png") no-repeat;
+    background-size: 45px;
+}
+.header-item:hover .header-item-privacy{
+    background: url("../pics/privacy-hover.png") no-repeat;
+    background-size: 45px;
 }
