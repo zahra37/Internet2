@@ -63,12 +63,14 @@
 }
 .textfield-search:hover {
     border: 1px solid rgb(33, 89, 209);
+    background: url(../pics/search-hover.png) no-repeat scroll 5px 5px;
+    background-size: 20px;
 }
 .textfield-search:focus {
     border: 1px solid rgb(33, 89, 209);
-}
-.textfield-search:focus {
     outline-width: 0px;
+    background: url(../pics/search-hover.png) no-repeat scroll 5px 5px;
+    background-size: 20px;
 }
 .menu-list {
     list-style-type: none;
@@ -121,8 +123,8 @@
     color: rgb(112, 112, 112);
     padding-bottom: 10px;
     padding-top: 10px;
-    -webkit-transition: background 0.3s;
-    transition: background 0.3s;
+    /* -webkit-transition: background 0.3s;
+    transition: background 0.3s; */
 }
 .header-navbar .active {
     border: 1px solid rgb(33, 89, 209);
@@ -156,8 +158,8 @@
     border: 1px solid rgb(33, 89, 209);
     background: rgb(33, 89, 209);
     color:  rgb(255, 255, 255);
-    -webkit-transition: background 0.3s;
-    transition: background 0.3s;
+    /* -webkit-transition: background 0.3s;
+    transition: background 0.3s; */
 }
 .header-item .header-item-about-us{
     background: url("../pics/about-us.png") no-repeat;

@@ -150,13 +150,18 @@
 }
 .body-5-textfield {
     background-color: rgb(240, 242, 247);
+    border: 1px solid rgb(240, 242, 247);
+    color: rgb(102, 102, 102);
     border-radius: 15px;
-    border: 0px;
     width: 100%;
     height: 30px;
     padding-left: 5px;
     padding-right: 10px;
     box-sizing: border-box;
+}
+.body-5-textfield:hover, .body-5-textfield:focus {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(23, 85, 183);
 }
 .site-address {
     direction: ltr;
@@ -178,17 +183,20 @@
     padding-bottom: 20px;
 }
 .textfield-pm {
+    color: rgb(102, 102, 102);
     background-color: rgb(240, 242, 247);
+    border: 1px solid rgb(240, 242, 247);
     border-radius: 15px;
-    border: 0px;
     width: 100%;
     height: 130px;
     padding: 10px;
     resize: none;
     box-sizing: border-box;
 }
-.textfield-pm:focus {
+.textfield-pm:focus, .textfield-pm:hover {
     outline-width: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(23, 85, 183);
 }
 .body-5-btn {
     border: 1px solid rgb(33, 89, 209);
@@ -199,8 +207,12 @@
     display: block;
     margin-right: auto;
 }
-.body-5-btn:focus {
+.body-5-btn:hover {
     outline-width: 0px;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 89, 209);;
 }
 .body-5-line-4 {
     padding-left: 40px;

@@ -56,6 +56,30 @@ footer{
     display: flex;
     justify-content: center;
 }
+.footer-img .facebook{
+    background: url("../pics/facebook.png") no-repeat;
+    background-size: 35px;
+}
+.footer-img .facebook:hover{
+    background: url("../pics/facebook-hover.png") no-repeat;
+    background-size: 35px;
+}
+.footer-img .twitter{
+    background: url("../pics/twitter.png") no-repeat;
+    background-size: 35px;
+}
+.footer-img .twitter:hover{
+    background: url("../pics/twitter-hover.png") no-repeat;
+    background-size: 35px;
+}
+.footer-img .googleplus{
+    background: url("../pics/google+.png") no-repeat;
+    background-size: 35px;
+}
+.footer-img .googleplus:hover{
+    background: url("../pics/google+-hover.png") no-repeat;
+    background-size: 35px;
+}
 .item-head{
     font-weight: bold;
     padding-bottom: 3px;
