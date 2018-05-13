@@ -211,14 +211,28 @@
     
 }
 .chat-fixed-up-img {
-    flex: 30%;
+    flex: 20%;
 }
 .chat-contact-img {
     width: 50px;
     height: 50px;
+    margin-top: 20px;
+    margin-right: 17px;
+    margin-left: 5px;
 }
 .chat-fixed-up-contact-name{
-    flex: 60%;
+    flex: 70%;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.chat-menu-img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* background-color: rgb(160, 160, 160); */
+    border-radius: 20px;
 }
 .chat-fixed-up-icon{
     flex: 10%;
