@@ -1,5 +1,6 @@
 
 @import url("font.css");
+@import url("support.css");
 * {
     font-family: Shabnam;
     padding: 0px;
