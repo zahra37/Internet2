@@ -74,3 +74,23 @@
     background-color: rgb(220, 220, 220);
     border: 3px solid rgb(200, 200, 200);
 }
+.chat-textfield{
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 0 10px 10px 0;
+    vertical-align: middle;
+    width: 246px;
+    margin: 6px 10px 6px -5px;
+    padding: 12px 15px;
+    font-size: 16px;
+}
+.chat-send{
+    display: inline-block;
+    background: url(../pics/send.png) no-repeat 7px 7px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    border-radius: 10px 0 0 10px;
+    background-size: 34px;
+    width: 34px;
+    height: 34px;
+    padding: 7px;
+}
