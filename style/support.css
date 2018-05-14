@@ -61,6 +61,9 @@
     /* background-color: rgb(160, 160, 160); */
     border-radius: 20px;
 }
+.chat-menu-img:hover{
+    cursor: pointer;
+}
 .chat-fixed-up-icon{
     flex: 10%;
 }
@@ -93,4 +96,7 @@
     width: 34px;
     height: 34px;
     padding: 7px;
+}
+.chat-send:hover{
+    cursor: pointer;
 }
