@@ -74,6 +74,7 @@
     flex: 68%;
     border-radius: 20px 20px 0px 0px;
     background-color: rgb(220, 220, 220);
+    overflow: scroll;
 }
 .chat-support{
     display: flex;
@@ -101,7 +102,14 @@
     padding: 10px;
     font-size: 13px;
 }
-
+.support-text-date {
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 45px;
+    font-size: 10px;
+    color: rgb(40, 40, 40);
+    float: left;
+}
 .chat-customer{
     display: flex;
 }
@@ -128,6 +136,15 @@
     padding: 10px;
     font-size: 13px;
     float: left;
+}
+.customer-text-date {
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 45px;
+    font-size: 10px;
+    float: right;
+    color: rgb(40, 40, 40);
 }
 
 .chat-fixed-down{
