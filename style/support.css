@@ -6,6 +6,9 @@
     background-color: rgb(23, 85, 183);
     border-radius: 20px 20px 0px 0px;
 }
+.chatbar-fixed:hover {
+    cursor: pointer;
+}
 .chatbar {
     display: flex;
 }
@@ -23,14 +26,13 @@
 }
 .chat-fixed{
     position: fixed;
-    display: flex;
+    display: none;
     flex-direction: column;
     bottom: 0;
     width: 350px;
     height: 450px;
     background-color: rgb(23, 85, 183);
     border-radius: 20px 20px 0px 0px !important;
-    
 }
 .chat-fixed-up{
     flex: 20%;
@@ -46,6 +48,7 @@
     margin-top: 20px;
     margin-right: 17px;
     margin-left: 5px;
+    border-radius: 50%;
 }
 .chat-fixed-up-contact-name{
     flex: 70%;
@@ -72,6 +75,61 @@
     border-radius: 20px 20px 0px 0px;
     background-color: rgb(220, 220, 220);
 }
+.chat-support{
+    display: flex;
+}
+.chat-support-img {
+    flex: 20%;
+}
+.support-img-send {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.chat-support-text {
+    flex: 80%;
+}
+.support-text-send {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.chat-customer{
+    display: flex;
+}
+.chat-customer-img {
+    flex: 20%;
+}
+.customer-img-send {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.chat-customer-text {
+    flex: 80%;
+}
+.customer-text-send {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 13px;
+    float: left;
+}
+
 .chat-fixed-down{
     flex: 12%;
     background-color: rgb(220, 220, 220);
@@ -85,6 +143,9 @@
     margin: 6px 10px 6px -5px;
     padding: 12px 15px;
     font-size: 16px;
+}
+.chat-textfield:focus {
+    outline-width: 0px;
 }
 .chat-send{
     display: inline-block;
